@@ -3,35 +3,35 @@ name: MATH 2310
 
 project:
   version: 1.0.0
-  download_url: https://github.com/allejo/jekyll-docs-theme/releases
+  download_url: "{{ site.baseurl }}/OlsenCV.pdf"
   download_text: Syllabus
 
 license:
-  software: MIT License
-  software_url: https://opensource.org/licenses/MIT
+  software: 
+  software_url:
 
-  docs: CC BY 3.0
-  docs_url: https://creativecommons.org/licenses/by/3.0/
+  docs: Collab
+  docs_url:
 
 links:
   header:
-    - title: GitHub
-      icon: github
-      brand: true
-      url: https://github.com/allejo/jekyll-docs-theme
+    - title: 
+      icon: 
+      brand: false
+      url:
   homepage:
-    - title: View on GitHub
-      icon: github
-      brand: true
-      url: https://github.com/allejo/jekyll-docs-theme
+    - title:
+      icon:
+      brand: false
+      url:
   footer:
-    - title: GitHub
-      icon: github
+    - title:
+      icon: 
       brand: true
-      url: https://github.com/allejo/jekyll-docs-theme
-    - title: Issues
-      icon: bug
-      url: https://github.com/allejo/jekyll-docs-theme/issues?state=open
+      url: 
+    - title:
+      icon:
+      url:
 
 ui:
   mode: 'light' # 'auto', 'dark', 'light'
