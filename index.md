@@ -25,10 +25,9 @@ Graduate assistant: Raul Hernandez
 ```
 </div>
 <div class="col-lg-6" markdown="1">
-
 ## Calendar
 {:.mt-lg-0}
-
+<iframe src="https://calendar.google.com/calendar/embed?src=5c7ecad7ae65e8db19743276a960f0c78bebeb183148d77a91f1e3fd24feb6be%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
 </div>
 
