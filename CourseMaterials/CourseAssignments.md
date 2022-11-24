@@ -9,10 +9,17 @@ Grades are computed according to the rubric described on the syllabus.
 
 |             | Assignment | Solutions  |
 |:------------|:-----------|:-----------|
+<<<<<<< HEAD
 | `Homework 1`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_1_FALL_2022.pdf">Hw 1</a> | Hw 1 Solutions |
 | `Homework 2`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_2_FALL_2022.pdf">Hw 2</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_2_Solutions_FALL_2022.pdf">Hw 2 Solutions</a> |
 | `Homework 3`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_3_FALL_2022.pdf">Hw 3</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_3_Solutions_FALL_2022.pdf">Hw 3 Solutions</a> |
 | `Homework 4`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_4_FALL_2022.pdf">Hw 4</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_4_Solutions_FALL_2022.pdf">Hw 4 Solutions</a> |
+=======
+| `Homework 1`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_1_FALL_2022.pdf">Hw 1</a> | A pdf file |
+| `Homework 2`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_2_FALL_2022.pdf">Hw 2</a> | Solutions  |
+| `Homework 3`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_3_FALL_2022.pdf">Hw 3</a> | Solutions  |
+| `Homework 4`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_4_FALL_2022.pdf">Hw 4</a> | Solutions  |
+>>>>>>> db5b7e3cb7bd3dad301adff79b39231d447a1776
 | `Homework 5`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_5_FALL_2022.pdf">Hw 5</a> | Solutions  |
 | `Homework 6`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_6_FALL_2022.pdf">Hw 6</a> | Solutions  |
 | `Homework 7`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_7_FALL_2022.pdf">Hw 7</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw-7-SolutionsFALL2022.pdf">Hw 7 Solutions</a> |
