@@ -27,8 +27,8 @@ title: Course Assignments
 | `Quiz 5` | Practice Quiz 1 | Solutions | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_5_FALL_2022.pdf">Quiz 5</a> | Solutions |
 | `Quiz 6` | Practice Quiz 1 | Solutions | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_6_FALL_2022.pdf">Quiz 6</a> | Solutions |
 | `Quiz 7` | Practice Quiz 1 | Solutions | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_7_FALL_2022.pdf">Quiz 7</a> | Solutions |
-| `Quiz 8` | Practice Quiz 1 | Solutions | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_8_FALL_2022.pdf">Quiz 8</a> | Solutions |
-| `Quiz 9` | Practice Quiz 1 | Solutions | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_9_FALL_2022.pdf">Quiz 9</a> | Solutions |
+| `Quiz 8` | Practice Quiz 1 | Solutions | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_8_FALL_2022.pdf">Quiz 8</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_8_Solutions_FALL_2022.pdf">Quiz 8 Solutions</a> |
+| `Quiz 9` | Practice Quiz 1 | Solutions | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_9_FALL_2022.pdf">Quiz 9</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_9_Solutions_FALL_2022.pdf">Quiz 9 Solutions</a> |
 
 ## Exams
 
