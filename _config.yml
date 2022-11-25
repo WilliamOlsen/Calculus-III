@@ -82,3 +82,4 @@ exclude:
   - LICENSE.md
   - README.md
   - screenshot.png
+  - CourseNotes.md

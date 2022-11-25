@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Course Notes
+published: false
 ---
 
 This page contains all of the course notes. 
