@@ -3,8 +3,6 @@ layout: page
 title: Course Assignments
 ---
 
-Grades are computed according to the rubric described on the syllabus.
-
 ## Homework
 
 |             | Assignment | Solutions  |
@@ -16,8 +14,6 @@ Grades are computed according to the rubric described on the syllabus.
 | `Homework 5`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_5_FALL_2022.pdf">Hw 5</a> | Solutions  |
 | `Homework 6`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_6_FALL_2022.pdf">Hw 6</a> | Solutions  |
 | `Homework 7`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_7_FALL_2022.pdf">Hw 7</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw-7-SolutionsFALL2022.pdf">Hw 7 Solutions</a> |
-| `Homework 8`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_8_FALL_2022.pdf">Hw 8</a> | Solutions  |
-| `Homework 9`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_9_FALL_2022.pdf">Hw 9</a> | Solutions  |
 
 ## Quizzes
 
