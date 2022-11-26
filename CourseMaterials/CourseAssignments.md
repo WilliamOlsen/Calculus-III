@@ -27,13 +27,13 @@ title: Course Assignments
 | `Quiz 5` | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_5_FALL_2022.pdf">Quiz 5</a> | Solutions |
 | `Quiz 6` | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_6_FALL_2022.pdf">Quiz 6</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_6_Solutions_Fall_2022.pdf">Quiz 6 Solutions</a> |
 | `Quiz 7` | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_7_FALL_2022.pdf">Quiz 7</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_7_Solutions_Fall_2022.pdf">Quiz 7 Solutions</a> |
-| `Quiz 8` | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_8_FALL_2022.pdf">Quiz 8</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_8_Solutions_Fall_2022.pdf">Quiz 8 Solutions</a> |
-| `Quiz 9` | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_9_FALL_2022.pdf">Quiz 9</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_9_Solutions_Fall_2022.pdf">Quiz 9 Solutions</a> |
+| `Quiz 8` | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_8_Fall_2022.pdf">Quiz 8</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_8_Solutions_Fall_2022.pdf">Quiz 8 Solutions</a> |
+| `Quiz 9` | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_9_Fall_2022.pdf">Quiz 9</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_9_Solutions_Fall_2022.pdf">Quiz 9 Solutions</a> |
 
 ## Exams
 
 |          | Practice Exam | Practice Exam Solutions | Review Questions | Assignment | Solutions |
 |:---------|:--------------|:------------------------|:-----------------|:-----------|:----------|
 | `Exam 1` | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Exam_1_Spring_2022.pdf">Practice Exam 1</a> | Solutions | Exam 1 Review | Exam 1 Fall 2022  | Solutions |
-| `Exam 2` | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Exam_2_Spring_2022.pdf">Practice Exam 2</a> | Solutions | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Exam_2_Review_FALL_2022.pdf">Exam 2 Review</a> |Exam 2 Fall 2022  | Solutions |
+| `Exam 2` | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Exam_2_Spring_2022.pdf">Practice Exam 2</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Exam_2_Solutions_Spring_2022.pdf">Practice Exam 2 Solutions</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Exam_2_Review_FALL_2022.pdf">Exam 2 Review</a> |Exam 2 Fall 2022  | Solutions |
 | `Final Exam` | Practice Final Exam 1 | Solutions | Final Exam Review | Final Exam Fall 2022  | Solutions |
