@@ -17,8 +17,17 @@
 <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
 
 
-
-
+<!-- Include for Sage Math -->
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script>
+  // Make the div with id 'mycell' a Sage cell
+  sagecell.makeSagecell({inputLocation:  '#mycell',
+                         template:       sagecell.templates.minimal,
+                         evalButtonText: 'Activate'});
+  // Make *any* div with class 'compute' a Sage cell
+  sagecell.makeSagecell({inputLocation: 'div.compute',
+                         evalButtonText: 'Evaluate'});
+  </script>
 <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
@@ -117,6 +126,14 @@
                                 Course Notes
                             </a>
                         </li>
+                    
+                
+                    
+                    
+
+                    
+                    
+
                     
                 
             </ul>
@@ -218,6 +235,7 @@
     <tr>
       <th style="text-align: left"> </th>
       <th style="text-align: left">Notes</th>
+      <th style="text-align: left">Python Notebook</th>
       <th style="text-align: left">Video discussions</th>
     </tr>
   </thead>
@@ -225,11 +243,13 @@
     <tr>
       <td style="text-align: left"><code class="language-plaintext highlighter-rouge">Section 16.5</code> <br /> <code class="language-plaintext highlighter-rouge">Curl and Divergence</code></td>
       <td style="text-align: left"><a href="/CourseMaterials/Notes/Section_16_6_Curl_Divergence.pdf">Section 16.5 Notes</a></td>
+      <td style="text-align: left"><a href="/Section_16_7">Section 16.7 <br />Notebook</a></td>
       <td style="text-align: left">Section 16.5: YouTube link</td>
     </tr>
     <tr>
       <td style="text-align: left"><code class="language-plaintext highlighter-rouge">Section 16.6</code></td>
       <td style="text-align: left"><a href="/CourseMaterials/Notes/Section_16_6_and_16_8.pdf">Area of parametrized <br /> surfaces and introduction <br /> to Stokes’ theorem</a></td>
+      <td style="text-align: left">Link to notebook</td>
       <td style="text-align: left">YouTube link</td>
     </tr>
   </tbody>

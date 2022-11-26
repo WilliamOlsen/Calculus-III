@@ -10,10 +10,10 @@
 
 
 
-<title>MATH 2310</title>
-<meta name="description" content="An interactive Calculus III course.">
+<title>Python Notebook for Section 16.7 Parametrized Surfaces</title>
+<meta name="description" content="">
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/Section_16_7.html">
 <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
 
 
@@ -51,7 +51,7 @@
 
     
     <body
-        class="layout-full"
+        class="layout-default"
         data-spy="scroll"
         data-target="#page-toc"
         data-offset="0"
@@ -139,7 +139,7 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a
                             class="nav-link"
                             href=""
@@ -156,103 +156,70 @@
 </header>
 
         
-<div class="site-masthead mb-5 py-5 text-center">
+<div class="site-masthead mb-5 py-5 text-left">
     <div class="container">
-        <h1 class="site-masthead__title mb-1">MATH 2310</h1>
+        <h1 class="site-masthead__title mb-1">Python Notebook for Section 16.7 Parametrized Surfaces</h1>
 
-
-    <p class="site-masthead__description mb-0">
-        An interactive Calculus III course.
-    </p>
 
 
         
-    <div class="mt-4 mb-0">
-        
-            
-
-            <a
-    href="/CourseMaterials/Olsen_MATH2310_Syllabus_FALL_2022.pdf"
-    class="site-masthead__button mx-2 mb-2"
->
-    
-    <i
-        class="fas fa-download fa-fw mr-1"
-        aria-hidden="true"
-    ></i>
-
-
-    Syllabus
-</a>
-
-        
-
-    </div>
-
 
     </div>
 </div>
 
 
-        <div class="container">
-    <main class="layout-full__main scope-markdown">
-        
+        <div class="container-fluid">
+  <h1>Cylinders and quadric surfaces</h1>
+  <p>A description of quadric surfaces in three-space. Let's look at our first example, the sphere.</p>
+  <h3>A sphere</h3>
+    <div class="compute"><script type="text/x-sage">var('x','y','z');
+implicit_plot3d(x^2+y^2+z^2==4, (x,-3,3), (y,-3,3), (z,-3,3))
+      </script></div>
 
+  <hr />
 
+  <h3>Hyperboloid of one sheet</h3>
+   <div class="compute"><script type="text/x-sage">var('x','y','z');
+implicit_plot3d(x^2+y^2-z^2==4, (x,-5,5), (y,-5,5), (z,-3,3))
+      </script></div>
 
+  <hr />
 
+  <h3>Hyperboloid of two sheets</h3>
+     <div class="compute"><script type="text/x-sage">var('x','y','z');
+implicit_plot3d(-x^2-y^2+z^2==4, (x,-5,5), (y,-5,5), (z,-6,6))
+      </script></div>
 
+  <hr />    
 
+  <h3>Ellipsoid</h3>
+     <div class="compute"><script type="text/x-sage">var('x','y','z');
+implicit_plot3d(x^2+4*y^2+z^2==4, (x,-3,3), (y,-3,3), (z,-4,4))
+      </script></div>
 
+  <hr />
 
+   <h3>Paraboloid</h3>
+     <div class="compute"><script type="text/x-sage">var('x','y','z');
+implicit_plot3d(2*x^2 + z^2==y, (x,-3,3), (y,-3,3), (z,-4,4))
+      </script></div>
 
+  <hr />
 
+  <h3>A saddle surface</h3>
+     <div class="compute"><script type="text/x-sage">var('x','y','z');
+implicit_plot3d(x^2 - z^2==y, (x,-3,3), (y,-3,3), (z,-4,4))
+      </script></div>
 
+  <hr />
 
-
-    <p>This course provides an introduction to vector calculus and assumes familiarity with techniques/concepts from Calculus I, II. Starting with the elementary geometry of two- and three-space, we develop the calculus of vector-valued functions and multi-variables. We discuss parametrized space curves, limits of multi-variables functions, derivatives and the chain rule, and multi-variable integration.</p>
-
-<div class="row">
-<div class="col-lg-6">
-
-    <h2 class="mt-lg-0" id="course-information">Course information</h2>
-
-    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">Instructor</span><span class="pi">:</span> <span class="s">William E. Olsen</span>
-<span class="na">Email</span><span class="pi">:</span> <span class="s">weo3y@virginia.edu</span>
-<span class="na">Office hours</span><span class="pi">:</span> <span class="s">MW 12:00pm -- 2:00pm Room 312 Kerchof Hall</span>
-<span class="pi">-</span> <span class="na">Virtual office hours</span><span class="pi">:</span> <span class="s">T 12:00pm -- 1:00pm or by appointment</span>
-<span class="pi">-</span> <span class="na">Link to VOH</span><span class="pi">:</span> <span class="s">https://virginia.zoom.us/j/8607372052</span>
-<span class="pi">-</span> <span class="na">Recordings of previous VOH</span><span class="pi">:</span> <span class="s">YouTube</span>
-<span class="na">Graduate assistant</span><span class="pi">:</span> <span class="s">Raul Hernandez</span>
-<span class="pi">-</span> <span class="na">Email</span><span class="pi">:</span> <span class="s">raul_Rocks!@uva.edu</span> 
-</code></pre></div>    </div>
-
-    <h2 id="equity-in-mathematics">Equity in mathematics</h2>
-
-    <p>I do my best to incorporate research-based teaching practices in support of equity and diversity within mathematics. Listed below are a few links which I’ve found useful and enlightening:</p>
-    <ul>
-      <li><a href="http://lgbtmath.org/">Spectra out and ally list</a></li>
-      <li><a href="https://sites.google.com/view/basac-training/">Behaviors academics should avoid completely</a></li>
-      <li><a href="https://mathematicallygiftedandblack.com/">Mathematically Gifted and Black</a></li>
-      <li><a href="https://indigenousmathematicians.org/">Indigenous mathematicians</a></li>
-      <li><a href="https://www.lathisms.org/">Lathisms</a></li>
-      <li><a href="https://www.cupahr.org/events/21-day-challenges/21-day-racial-equity-habit-building-challenge/">CUPA-HR 21-Day Racial Equality Habit Building Challenge</a></li>
-    </ul>
-
-    <h2 id="local-events">Local events</h2>
-  </div>
-<div class="col-lg-6">
-    <h2 class="mt-lg-0" id="calendar">Calendar</h2>
-    <iframe src="https://calendar.google.com/calendar/embed?src=5c7ecad7ae65e8db19743276a960f0c78bebeb183148d77a91f1e3fd24feb6be%40group.calendar.google.com&amp;ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-  </div>
-</div>
-
-
-
-
-    </main>
-
-    
+   <h3>A more interesting surface</h3>
+    <div class="compute"><script type="text/x-sage">var('x','y','z');
+T = RDF(golden_ratio);
+F = 2 - (cos(x+T*y) + cos(x-T*y) + cos(y+T*z) + cos(y-T*z) + cos(z-T*x) + cos(z + T*x))
+r = 4.77
+implicit_plot3d(F, (x,-r,r), (y,-r,r), (z,-r,r), plot_points=100)
+      </script></div>
 </div>
 
 
