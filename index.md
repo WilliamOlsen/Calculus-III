@@ -35,6 +35,11 @@ I do my best to incorporate research-based teaching practices in support of equi
   - [CUPA-HR 21-Day Racial Equality Habit Building Challenge](https://www.cupahr.org/events/21-day-challenges/21-day-racial-equity-habit-building-challenge/)
 
 ## Local events
+
+## Recent updates
+Here's a list of recent updates that I've made to the website.
+  - Video example for computing the flux of a vector field using techniques from Section 16.7. Found under 'Course notes'.
+  
 </div>
 <div class="col-lg-6" markdown="1">
 ## Calendar
