@@ -38,6 +38,7 @@ I do my best to incorporate research-based teaching practices in support of equi
 
 ## Recent updates
 Here's a list of recent updates that I've made to the website.
+  - 11/29: updated link to Hw 8 solutions.
   - Video example for computing the flux of a vector field using techniques from Section 16.7. Found under 'Course notes'.
   
 </div>

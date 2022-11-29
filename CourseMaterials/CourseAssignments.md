@@ -14,7 +14,7 @@ title: Course Assignments
 | `Homework 5`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_5_FALL_2022.pdf">Hw 5</a> | Solutions  |
 | `Homework 6`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_6_FALL_2022.pdf">Hw 6</a> | Solutions  |
 | `Homework 7`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_7_Fall_2022.pdf">Hw 7</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw-7-SolutionsFALL2022.pdf">Hw 7 Solutions</a> |
-| `Homework 8`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_8_Fall_2022.pdf">Hw 8</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw-7-SolutionsFALL2022.pdf">Hw 8 Solutions</a> |
+| `Homework 8`| <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_8_Fall_2022.pdf">Hw 8</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Homework/Hw_8_Solutions_FALL_2022.pdf">Hw 8 Solutions</a> |
 
 ## Quizzes
 
