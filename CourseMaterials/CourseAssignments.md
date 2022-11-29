@@ -29,6 +29,7 @@ title: Course Assignments
 | `Quiz 7` | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_7_FALL_2022.pdf">Quiz 7</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_7_Solutions_FALL_2022.pdf">Quiz 7 Solutions</a> |
 | `Quiz 8` | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_8_Fall_2022.pdf">Quiz 8</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_8_Solutions_Fall_2022.pdf">Quiz 8 Solutions</a> |
 | `Quiz 9` | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_9_Fall_2022.pdf">Quiz 9</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_9_Solutions_Fall_2022.pdf">Quiz 9 Solutions</a> |
+| `Quiz 10` | <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_10_Fall_2022.pdf">Quiz 10</a>| <a href = "{{ site.baseurl }}/CourseMaterials/Quiz/Quiz_10_Solutions_Fall_2022.pdf">Quiz 10 Solutions</a> |
 
 ## Exams
 
