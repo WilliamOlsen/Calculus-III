@@ -10,10 +10,10 @@
 
 
 
-<title>Python Notebook for Section 16.7 Parametrized Surfaces</title>
+<title>Course Notes</title>
 <meta name="description" content="">
 
-<link rel="canonical" href="http://localhost:4000/Section_16_7.html">
+<link rel="canonical" href="http://localhost:4000/CourseNotes.html">
 <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
 
 
@@ -51,7 +51,7 @@
 
     
     <body
-        class="layout-default"
+        class="layout-page"
         data-spy="scroll"
         data-target="#page-toc"
         data-offset="0"
@@ -118,7 +118,7 @@
                     
 
                     
-                        <li class="nav-item ">
+                        <li class="nav-item active">
                             <a
                                 class="nav-link"
                                 href="/CourseNotes.html"
@@ -158,7 +158,7 @@
         
 <div class="site-masthead mb-5 py-5 text-left">
     <div class="container">
-        <h1 class="site-masthead__title mb-1">Python Notebook for Section 16.7 Parametrized Surfaces</h1>
+        <h1 class="site-masthead__title mb-1">Course Notes</h1>
 
 
 
@@ -168,58 +168,138 @@
 </div>
 
 
-        <div class="container-fluid">
-  <h1>Cylinders and quadric surfaces</h1>
-  <p>A description of quadric surfaces in three-space. Let's look at our first example, the sphere.</p>
-  <h3>A sphere</h3>
-    <div class="compute"><script type="text/x-sage">var('x','y','z');
-implicit_plot3d(x^2+y^2+z^2==4, (x,-3,3), (y,-3,3), (z,-3,3))
-      </script></div>
+        <div class="container">
+    <div class="row">
+        <main class="col-md-9 layout-page__main">
+            <section class="mobile-toc border mb-3 p-3 d-md-none">
+                <div class="d-flex align-items-center">
+                    <h2 class="mb-0">Table of Contents</h2>
 
-  <hr />
+                    <button
+                        class="js-only ml-2 toggle-toc"
+                        aria-controls="mobileTOC"
+                        aria-label="Toggle table of contents"
+                        aria-expanded="true"
+                    >
+                        <span aria-hidden="true" data-role="toggle">Hide</span>
+                    </button>
+                </div>
 
-  <h3>Hyperboloid of one sheet</h3>
-   <div class="compute"><script type="text/x-sage">var('x','y','z');
-implicit_plot3d(x^2+y^2-z^2==4, (x,-5,5), (y,-5,5), (z,-3,3))
-      </script></div>
+                
 
-  <hr />
 
-  <h3>Hyperboloid of two sheets</h3>
-     <div class="compute"><script type="text/x-sage">var('x','y','z');
-implicit_plot3d(-x^2-y^2+z^2==4, (x,-5,5), (y,-5,5), (z,-6,6))
-      </script></div>
 
-  <hr />    
 
-  <h3>Ellipsoid</h3>
-     <div class="compute"><script type="text/x-sage">var('x','y','z');
-implicit_plot3d(x^2+4*y^2+z^2==4, (x,-3,3), (y,-3,3), (z,-4,4))
-      </script></div>
 
-  <hr />
 
-   <h3>Paraboloid</h3>
-     <div class="compute"><script type="text/x-sage">var('x','y','z');
-implicit_plot3d(2*x^2 + z^2==y, (x,-3,3), (y,-3,3), (z,-4,4))
-      </script></div>
 
-  <hr />
 
-  <h3>A saddle surface</h3>
-     <div class="compute"><script type="text/x-sage">var('x','y','z');
-implicit_plot3d(x^2 - z^2==y, (x,-3,3), (y,-3,3), (z,-4,4))
-      </script></div>
 
-  <hr />
 
-   <h3>A more interesting surface</h3>
-    <div class="compute"><script type="text/x-sage">var('x','y','z');
-T = RDF(golden_ratio);
-F = 2 - (cos(x+T*y) + cos(x-T*y) + cos(y+T*z) + cos(y-T*z) + cos(z-T*x) + cos(z + T*x))
-r = 4.77
-implicit_plot3d(F, (x,-r,r), (y,-r,r), (z,-r,r), plot_points=100)
-      </script></div>
+
+
+
+
+<ul id="mobileTOC" class="js-toc mb-0 mt-2">
+  <li><a href="#chapter-16">Chapter 16</a></li>
+</ul>
+
+
+            </section>
+
+            <section class="scope-markdown">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h2 id="chapter-16">
+        
+        
+          Chapter 16 <a href="#chapter-16" class="." title="" >#</a>
+        
+        
+      </h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">Notes</th>
+      <th style="text-align: left">Python Notebook</th>
+      <th style="text-align: left">Video discussions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">Section 16.5</code> <br /> <code class="language-plaintext highlighter-rouge">Curl and Divergence</code></td>
+      <td style="text-align: left"><a href="/CourseMaterials/Notes/Section_16_6_Curl_Divergence.pdf">Section 16.5 Notes</a></td>
+      <td style="text-align: left"><a href="/Section_16_7">Section 16.7 <br />Notebook</a></td>
+      <td style="text-align: left">Section 16.5: YouTube link</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">Section 16.6</code></td>
+      <td style="text-align: left"><a href="/CourseMaterials/Notes/Section_16_6_and_16_8.pdf">Area of parametrized <br /> surfaces and introduction <br /> to Stokes’ theorem</a></td>
+      <td style="text-align: left">Link to notebook</td>
+      <td style="text-align: left">YouTube link</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">Section 16.7</code></td>
+      <td style="text-align: left"><a href="/CourseMaterials/Notes/Section_16_7_Example_1.pdf">Example 1</a></td>
+      <td style="text-align: left">N/A</td>
+      <td style="text-align: left"><a href="https://youtu.be/PLcFFyZVLPo">Video discussion</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+            </section>
+        </main>
+
+        <aside class="col-md-3 layout-page__sidebar d-none d-md-block hidden-print">
+            
+            <nav id="page-toc" class="page-sidebar">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="list-unstyled pl-0">
+  <li><a href="#chapter-16" class="nav-link px-3 py-1">Chapter 16</a></li>
+</ul>
+
+
+
+    <a class="px-3 text-muted" href="#top">
+        <small>Back to top</small>
+    </a>
+</nav>
+
+            
+        </aside>
+    </div>
+
+    
 </div>
 
 
