@@ -40,4 +40,4 @@ title: Course Assignments
 |:---------|:--------------|:------------------------|:-----------------|:-----------|:----------|
 | `Exam 1` | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Exam_1_Spring_2022.pdf">Practice Exam 1</a> | Solutions | Exam 1 Review | Exam 1 Fall 2022  | Solutions |
 | `Exam 2` | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Exam_2_Spring_2022.pdf">Practice Exam 2</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Exam_2_Solutions_Spring_2022.pdf">Practice Exam 2 Solutions</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Exam_2_Review_FALL_2022.pdf">Exam 2 Review</a> |Exam 2 Fall 2022  | Solutions |
-| `Final Exam` | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Final_Exam_Spring_2022.pdf">Practice Final Exam</a> | Solutions | Final Exam Review | Final Exam Fall 2022  | Solutions |
+| `Final Exam` | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Final_Exam_Spring_2022.pdf">Practice Final Exam</a> | <a href = "{{ site.baseurl }}/CourseMaterials/Exams/Final_Exam_Solutions_Spring_2022.pdf">Solutions</a> | Final Exam Review | Final Exam Fall 2022  | Solutions |
